@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination - Ultimate Road Trip</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/logo.png" alt="Destination Logo" style="height: 40px;">
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav Links & Socials -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="featuresDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="featuresDropdown">
+                                <li><a class="dropdown-item" href="#">Rated Stories</a></li>
+                                <li><a class="dropdown-item" href="#">Travel Guides</a></li>
+                                <li><a class="dropdown-item" href="#">Photo Journals</a></li>
+                                <li><a class="dropdown-item" href="#">Travel Gear</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                                <li><a class="dropdown-item" href="#">Lifestyle</a></li>
+                                <li><a class="dropdown-item" href="#">Adventure</a></li>
+                                <li><a class="dropdown-item" href="#">Culture</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons d-flex align-items-center justify-content-center">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="hero-content container">
+            <span class="category-text">Lifestyle</span>
+            <h3 class="hero-heading">Plan the Ultimate Road Trip along the Pacific Coast Highway</h3>
+            <p class="date-text">September 26, 2023</p>
+
+        </div>
+
+        <!-- Hero Author -->
+        <div class="hero-author">
+            <img src="assets/Creator.jpg" alt="Admin">
+            <span class="hero-author-text">
+                <span class="by-text">by ME </span>
+                <span class="author-name">(THE ADMIN)</span>
+            </span>
+        </div>
+
+    </header>
+
+    <!-- Engagement Section -->
+    <section class="engagement-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="engagement-card" style="background-image: url('assets/engagement-1.png');">
+                        <div class="card-overlay d-flex align-items-center justify-content-center">
+                            <div class="card-inner-border"></div>
+                            <div class="cta-label">
+                                GET IN TOUCH
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="engagement-card" style="background-image: url('assets/engagement-2.png');">
+                        <div class="card-overlay d-flex align-items-center justify-content-center">
+                            <div class="card-inner-border"></div>
+                            <div class="cta-label">
+                                INSTAGRAM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="engagement-card" style="background-image: url('assets/engagement-3.png');">
+                        <div class="card-overlay d-flex align-items-center justify-content-center">
+                            <div class="card-inner-border"></div>
+                            <div class="cta-label">
+                                WHO I AM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="newsletter-heading">Subscribe to my Newsletter</h2>
+                    <p class="newsletter-text mb-0">Be the first to know about new events and more announcements!
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <form class="newsletter-form d-flex flex-column flex-sm-row">
+                        <input type="email" class="form-control mb-3 mb-sm-0 me-sm-2" placeholder="Email Address"
+                            required>
+                        <button type="submit" class="btn btn-subscribe">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Section -->
+    <section class="blog-post-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <article class="blog-post">
+                        <!-- Category -->
+                        <span class="post-category">LIFESTYLE</span>
+
+                        <!-- Title -->
+                        <h1 class="post-title">Plan the Ultimate Road Trip along the Pacific Coast Highway</h1>
+
+                        <!-- Meta Info -->
+                        <div class="post-meta">
+                            <span>SEPTEMBER 24, 2023</span>
+                            <span class="separator">|</span>
+                            <span>ADMIN</span>
+                            <span class="separator">|</span>
+                            <span>100 COMMENTS</span>
+                        </div>
+
+                        <!-- Featured Image -->
+                        <div class="post-featured-image">
+                            <img src="assets/hero-bg.jpg" alt="Blog Featured Image">
+                        </div>
+
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <p>Stretching nearly 650 miles along the western coastline of the United States, the Pacific
+                                Coast Highway is the quintessential American road trip. Hugging the Pacific coast
+                                through California, this legendary route takes you past stunning beaches, quaint coastal
+                                towns, and...</p>
+
+                            <!-- Continue Reading / Related Links -->
+                            <div class="continue-reading mt-5 pt-4">
+                                <div class="text-center mb-4">
+                                    <h5 class="cr-heading">CONTINUE READING</h5>
+                                    <div class="cr-divider"></div>
+                                </div>
+
+                                <!-- Social Share -->
+                                <div class="post-share d-flex align-items-center justify-content-between mb-5">
+                                    <div class="share-line"></div>
+                                    <div class="share-icons mx-4 d-flex gap-3">
+                                        <a href="#" class="share-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="share-btn"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="share-btn"><i class="fa-brands fa-pinterest-p"></i></a>
+                                        <a href="#" class="share-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#" class="share-btn"><i class="fa-regular fa-envelope"></i></a>
+                                    </div>
+                                    <div class="share-line"></div>
+                                </div>
+
+                                <!-- Related Posts Grid -->
+                                <div class="row">
+                                    <!-- Related Post 1 -->
+                                    <div class="col-md-6 mb-4">
+                                        <div class="cr-card">
+                                            <div class="cr-image mb-3">
+                                                <img src="assets/neom.jpg" alt="Poetic Journey">
+                                            </div>
+                                            <div class="cr-body">
+                                                <div class="cr-tags mb-2">EXPLORE <span class="text-muted mx-1">/</span>
+                                                    VACATION</div>
+                                                <h4 class="cr-title">A Poetic Journey Through the World’s Inspiring
+                                                    Destinations</h4>
+                                                <p class="cr-excerpt">Stretching nearly 650 miles along the western
+                                                    coastline of the United States, the Pacific Coast Highway is the...
+                                                </p>
+                                                <div class="cr-date">APRIL 26, 2024</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Related Post 2 -->
+                                    <div class="col-md-6 mb-4">
+                                        <div class="cr-card">
+                                            <div class="cr-image mb-3">
+                                                <img src="assets/air-balloon.jpg" alt="Iceland">
+                                            </div>
+                                            <div class="cr-body">
+                                                <div class="cr-tags text-uppercase mb-2">ADVENTURE</div>
+                                                <h4 class="cr-title">Plan to visit Iceland’s Otherworldly Wild Views
+                                                </h4>
+                                                <p class="cr-excerpt">Stretching nearly 650 miles along the western
+                                                    coastline of the United States, the Pacific Coast Highway is the...
+                                                </p>
+                                                <div class="cr-date">JUNE 25, 2024</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Related Post 3 -->
+                                    <div class="col-md-6 mb-4">
+                                        <div class="cr-card">
+                                            <div class="cr-image mb-3">
+                                                <img src="assets/dino-reichmuth.jpg" alt="River Cities">
+                                            </div>
+                                            <div class="cr-body">
+                                                <div class="cr-tags mb-2">EXPLORE</div>
+                                                <h4 class="cr-title">The Most Beautiful River Cities and there culture
+                                                </h4>
+                                                <p class="cr-excerpt">Stretching nearly 650 miles along the western
+                                                    coastline of the United States, the Pacific Coast Highway is the...
+                                                </p>
+                                                <div class="cr-date">SEPTEMBER 24, 2024</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Related Post 4 -->
+                                    <div class="col-md-6 mb-4">
+                                        <div class="cr-card">
+                                            <div class="cr-image mb-3">
+                                                <img src="assets/pexels.jpg" alt="Instagrammable Spots">
+                                            </div>
+                                            <div class="cr-body">
+                                                <div class="cr-tags mb-2">DESTINATION <span
+                                                        class="text-muted mx-1">/</span>
+                                                    WORLD</div>
+                                                <h4 class="cr-title">The Most Instagrammable Spots in the World</h4>
+                                                <p class="cr-excerpt">Stretching nearly 650 miles along the western
+                                                    coastline of the United States, the Pacific Coast Highway is the...
+                                                </p>
+                                                <div class="cr-date">JANUARY 15, 2025</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Related Post 5 -->
+                                    <div class="col-md-6 mb-4">
+                                        <div class="cr-card">
+                                            <div class="cr-image mb-3">
+                                                <img src="assets/wp55.jpg" alt="Cascade Mountains">
+                                            </div>
+                                            <div class="cr-body">
+                                                <div class="cr-tags mb-2">TRAVEL GUIDES <span
+                                                        class="text-muted mx-1">/</span> WORLD</div>
+                                                <h4 class="cr-title">Top 10 Must-See Locations in the Cascade Mountains
+                                                </h4>
+                                                <p class="cr-excerpt">Stretching nearly 650 miles along the western
+                                                    coastline of the United States, the Pacific Coast Highway is the...
+                                                </p>
+                                                <div class="cr-date">MARCH 15, 2025</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Related Post 6 -->
+                                    <div class="col-md-6 mb-4">
+                                        <div class="cr-card">
+                                            <div class="cr-image mb-3">
+                                                <img src="assets/wo-pic.jpg" alt="Solo Travel">
+                                            </div>
+                                            <div class="cr-body">
+                                                <div class="cr-tags text-uppercase mb-2">TRAVEL</div>
+                                                <h4 class="cr-title">The Ultimate Guide to Solo Travel Everything You
+                                                    Need to Know</h4>
+                                                <p class="cr-excerpt">Stretching nearly 650 miles along the western
+                                                    coastline of the United States, the Pacific Coast Highway is the...
+                                                </p>
+                                                <div class="cr-date">DECEMBER 15, 2025</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pagination Placeholder -->
+                                <div class="pagination-container d-flex align-items-center justify-content-center mt-5">
+                                    <a href="#" class="cr-page-link active">1</a>
+                                    <a href="#" class="cr-page-link">2</a>
+                                    <a href="#" class="cr-page-link next"><i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <aside class="blog-sidebar">
+                        <!-- Author Card -->
+                        <div class="author-card">
+                            <div class="author-image">
+                                <img src="assets/blog-author.jpg" alt="Jainne Doe">
+                            </div>
+                            <h3 class="author-name">JAINNE DOE</h3>
+                            <p class="author-title">Travel Blogger</p>
+                            <p class="author-bio">I am Jainne Doe, a passionate and adventurous travel blogger who has
+                                an insatiable wanderlust and a deep love for exploring the world.</p>
+                            <div class="author-signature">
+                                <img src="assets/signature.png" alt="Signature">
+                            </div>
+                            <div class="author-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Latest Posts -->
+                        <div class="sidebar-section mt-5">
+                            <h4 class="sidebar-title">LATEST POSTS</h4>
+
+                            <!-- Post 1 -->
+                            <div class="latest-post-item">
+                                <div class="lp-image-wrapper">
+                                    <span class="lp-number">1</span>
+                                    <img src="assets/Jungle-girl.jpg" alt="Road Trip">
+                                </div>
+                                <div class="lp-content">
+                                    <h5 class="lp-title">Lost within green silence, I rediscover forgotten inner
+                                        pathways.
+                                    </h5>
+                                    <span class="lp-date">FEBRUARY 26, 2025</span>
+                                </div>
+                            </div>
+
+                            <!-- Post 2 -->
+                            <div class="latest-post-item">
+                                <div class="lp-image-wrapper">
+                                    <span class="lp-number">2</span>
+                                    <img src="assets/hot-air-balloon.jpg" alt="Poetic Journey">
+                                </div>
+                                <div class="lp-content">
+                                    <h5 class="lp-title">Floating above desert mesas, where ancient horizons quietly
+                                        breathe.
+                                    </h5>
+                                    <span class="lp-date">APRIL 20, 2025</span>
+                                </div>
+                            </div>
+
+                            <!-- Post 3 -->
+                            <div class="latest-post-item">
+                                <div class="lp-image-wrapper">
+                                    <span class="lp-number">3</span>
+                                    <img src="assets/neom-seen.jpg" alt="Iceland">
+                                </div>
+                                <div class="lp-content">
+                                    <h5 class="lp-title">Walking between future ruins and endless sands of destiny.</h5>
+                                    <span class="lp-date">AUGUST 10, 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar Banners -->
+                        <div class="sidebar-banners mt-5">
+                            <div class="sidebar-banner mb-4" style="background-image: url('assets/engagement-2.png');">
+                                <div class="banner-overlay d-flex align-items-center justify-content-center">
+                                    <div class="banner-label">DESTINATIONS</div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-banner" style="background-image: url('assets/engagement-3.png');">
+                                <div class="banner-overlay d-flex align-items-center justify-content-center">
+                                    <div class="banner-label">PHOTOGRAPHY</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section -->
+    <section class="instagram-section">
+        <div class="container text-center mb-5">
+            <h6 class="insta-subtitle">FIND ME ON INSTAGRAM</h6>
+            <h2 class="insta-title"><i class="fa-brands fa-instagram"></i> DESTINATION</h2>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <!-- Insta Item 1 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/engagement-1.png" alt="Insta 1">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 2 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/engagement-2.png" alt="Insta 2">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 3 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/engagement-3.png" alt="Insta 3">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 4 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/neom.jpg" alt="Insta 4">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 5 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/air-balloon.jpg" alt="Insta 5">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 6 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/dino-reichmuth.jpg" alt="Insta 6">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 7 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/pexels.jpg" alt="Insta 7">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+                <!-- Insta Item 8 -->
+                <div class="col-6 col-md-3 col-lg text-center">
+                    <div class="insta-item">
+                        <img src="assets/wp55.jpg" alt="Insta 8">
+                        <div class="insta-overlay"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <!-- Footer Logo -->
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="Destination Logo" style="height: 60px;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom py-4 border-top border-secondary border-opacity-25">
+                <div class="row align-items-center">
+                    <!-- Copyright -->
+                    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                        <p class="text-white opacity-50 small m-0" style="font-size: 0.7rem;">(c) 2025 - Destination All
+                            Rights Reserved</p>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="col-md-4 text-center mb-3 mb-md-0">
+                        <nav class="footer-nav">
+                            <a href="#">CONTACT</a>
+                            <span class="mx-2 text-secondary">/</span>
+                            <a href="#">ABOUT</a>
+                            <span class="mx-2 text-secondary">/</span>
+                            <a href="#">PRIVACY</a>
+                            <span class="mx-2 text-secondary">/</span>
+                            <a href="#">TERMS</a>
+                        </nav>
+                    </div>
+
+                    <!-- Social icons -->
+                    <div class="col-md-4 text-center text-md-end">
+                        <div class="footer-social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Navbar Transparency Script -->
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(0, 0, 0, 0.9)';
+                navbar.style.padding = '1rem 2rem';
+            } else {
+                navbar.style.background = 'transparent';
+                navbar.style.padding = '1.5rem 2rem';
+            }
+        });
+    </script>
+</body>
+
+</html>
